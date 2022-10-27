@@ -11,4 +11,4 @@ console.log("Servidor andando"))
 app.set("view engine", "ejs")
 
 app.use('/', mainRoutes)
-app.use('/detalleMenu', mainRoutes)
+app.use('/detalleMenu/:id', mainRoutes)

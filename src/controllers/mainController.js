@@ -1,7 +1,7 @@
 let menu= [
     {
         nombre:"Carpaccio Fresco",
-        descripcion:"Carpaccio....",
+        descripcion:"Entrada Carpaccio de salmón con cítricos",
         precio:47.00,
         id:1
         },
@@ -22,9 +22,16 @@ let menu= [
 nombre:"Espárragos blancos",
 descripcion:"Espárragos blancos con vinagreta de verduras y jamón ibérico",
  precio:37.50,
-        id:1
+        id:4
     },
-    
+    {       
+        nombre:"Roast Beef with sublime sun gold egg",
+        descripcion:"Bife con huevo frito",
+         precio:43.50,
+                id:5
+            },
+            
+
     ]
 
 let mainControllers= {
